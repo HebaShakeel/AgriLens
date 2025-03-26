@@ -3,7 +3,7 @@
 - [Entity Linking with a Knowledge Base: Issues, Techniques, and Solutions](https://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/TKDE14-entitylinking.pdf)
 - [Semantic Search with Knowledge Bases](https://hasibi.com/files/theses/phd-thesis.pdf)
 
-I'll summarize our key discussions and the planned approach for your project:
+Summary of our planned approach for this project:
 
 **1. Initial Data Processing**
 - Contains text data from agricultural news articles
