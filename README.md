@@ -2,6 +2,7 @@
 ## Entity Linking
 - [Entity Linking with a Knowledge Base: Issues, Techniques, and Solutions](https://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/TKDE14-entitylinking.pdf)
 - [Semantic Search with Knowledge Bases](https://hasibi.com/files/theses/phd-thesis.pdf)
+- [Agentic Chunking](https://arxiv.org/pdf/2312.06648)
 
 Summary of our planned approach for this project:
 
@@ -17,24 +18,9 @@ Summary of our planned approach for this project:
 - Maintain sentence structure
 - Remove any potential noise/metadata
 
-**3. Topic Modeling**
-- Perform before vector database storage
-- Topics will be stored as metadata
-- Helps with:
-  - Document organization
-  - Retrieval filtering
-  - Understanding content relationships
-  - Informing chunking decisions
+**3. Data Chunking**
 
-**4. Text Chunking Strategy**
-- Using semantic chunking (rule-based approach)
-- No need for fixed-length chunks
-- Maintain natural paragraph structures
-- Keep related content together
-- Preserve quotes and context
-- Don't need to worry about uniform chunk sizes
-
-**5. Metadata Structure**
+**4. Metadata Structure**
 - Will maintain document-chunk relationships
 - Each chunk will include:
   - Document ID
@@ -44,7 +30,7 @@ Summary of our planned approach for this project:
   - Other relevant metadata
   - Position/context information
 
-**6. Vector Database Approach**
+**5. Vector Database Approach**
 - Each chunk gets its own embedding
 - All embeddings will be same size (determined by model)
 - Input text chunks can be different lengths
