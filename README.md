@@ -1,1 +1,1 @@
-# AgriLens: A RAG-Based Framework for Fine-Grained Topic Discovery and Semantic Retrieval in Agriculture Texts
+# AgriLens: Semantic Retrieval in Agricultural Texts Using Topic Modeling and Language Models
